@@ -1,6 +1,3 @@
-* Table of Contents
-{:toc}
-
 ## Deep Learning With Differential Privacy
 [Link](https://search.library.uq.edu.au/permalink/f/tbms52/TN_cdi_arxiv_primary_1607_00133)  
 
