@@ -1,0 +1,39 @@
+strict digraph {
+    "DP" -> "Granularity"
+    "DP" -> "Attack Types"
+    "DP" -> "Bounds"
+    "DP" -> "Engine types"
+    "DP" -> "Divergence"
+    
+    "Engine types" -> "compute as needed"
+    "Engine types" -> "compute initially"
+
+    "compute as needed" -> "determines to change\ncontent on query\nexecution"
+    "compute as needed" -> "weak to timing attacks"
+
+    "compute initially" -> "stores another synthetic database"
+
+    "Bounds" -> "delta"
+    "Bounds" -> "epsilon-delta"
+
+    "delta" -> "Cryptographically\nsmall value"
+    "delta" -> "higher bound"
+    
+    "epsilon-delta" -> "higher and lower bound"
+
+    "Attack Types" -> "Timing"
+    "Attack Types" -> "State"
+    "Attack Types" -> "Privacy Budget"
+    
+    "Granularity" -> "Vertex-based/\nRecord-based"
+    "Granularity" -> "Edge-based"
+    
+    "Divergence" -> "f-Divergence"
+    "Divergence" -> "Renyi-Divergence"
+
+    "f-Divergence" -> "KL-Divergence"
+    
+    "KL-Divergence" -> "Max Divergence (worstcase of KL)"
+
+    
+}

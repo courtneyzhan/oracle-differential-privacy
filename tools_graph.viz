@@ -1,0 +1,37 @@
+digraph {
+	"Existing Tools" -> "PINQ"
+	"Existing Tools" -> "Airavat (2010)"
+	"Existing Tools" -> "Fuzz (2011)"
+	"Existing Tools" -> "GUPT (2012)"
+	"Existing Tools" -> "PINQuin (2012)"
+	"Existing Tools" -> "Google's Differential\nPrivacy Tool"
+    "Existing Tools" -> "Uber's Differential\nPrivacy Tool"
+    
+    "PINQ" -> "Microsoft\n(Frank McSherry)"
+    "PINQ" -> "Longstanding prototype\nbut one of the first."
+    "PINQ" -> "Creator\nFrank McSherry\nevaluates lots of\nexisting tools\non his blog"
+    
+    "Airavat (2010)" -> "MapReduce based"
+    "Airavat (2010)" -> "Weak to Timing and\nState-based attacks"
+    
+    "Fuzz (2011)" -> "Created by Haeberlen et al.\nin response to PINQ and\nAiravat"
+    "Fuzz (2011)" -> "Often times out"
+    "Fuzz (2011)" -> "Does not deal with\nextra calculations well"
+    
+    "GUPT (2012)" -> "Ebadi claimed that this\n is one of the most robust\nframeworks that existed\nin 2015"
+
+    "PINQuin (2012)" -> "Released shortly after GUPT"
+    "PINQuin (2012)" -> "Master's Thesis for\nRecord-Based Differential Privacy"
+    "PINQuin (2012)" -> "Based on PINQ"
+    "PINQuin (2012)" -> "Author also published\nan abstract model of a new\nsystem, ProPer"
+    
+    "Author also published\nan abstract model of a new\nsystem, ProPer" -> "Differential Privacy: Now it's Personal"
+    
+    
+    "Google's Differential\nPrivacy Tool" -> "Still maintained"
+    "Google's Differential\nPrivacy Tool" -> "Quite a few customisable options"
+
+    "Uber's Differential\nPrivacy Tool" -> "Deprecated"
+}
+
+

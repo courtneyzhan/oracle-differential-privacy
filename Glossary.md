@@ -46,3 +46,7 @@ For instance, in a collaboration based recommendation system - it's important to
 [4] Dwork,[The Promise of Differential Privacy: A Tutorial on Algorithmic Techniques](https://ieeexplore-ieee-org.ezproxy.library.uq.edu.au/document/6108143)
 [5] Dwork & Rothblum (2016), [Concentrated Differential Privacy](https://arxiv.org/pdf/1603.01887.pdf)
   Detail on e-d differential privacy
+[6] Haeberlen, Pierce & Narayan (2011), [Differential Privacy Under Fire](https://css.csail.mit.edu/6.858/2013/readings/dp-under-fire.pdf)
+[7] Hamind Ebadi Tavallaei (2012) [PINQuin, a framework for differentially private analysis](https://odr.chalmers.se/bitstream/20.500.12380/176660/1/176660.pdf)
+[8] Mohan, Thakurta, Shi, Song & Culler (2012) [GUPT: Privacy Preserving Data Analysis Made Easy](https://www.cs.umd.edu/~elaine/docs/gupt.pdf)
+[9] Asoodeh, Aliakbarpour & Calmon (2021) [Local Differential Privacy Is Equivalent to Contraction of E_gamma_-Divergence](https://arxiv.org/pdf/2102.01258.pdf)
